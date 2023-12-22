@@ -1,0 +1,57 @@
+[2023-12-17 20:10:10,322: ERROR: site]: unknown url type: 'www.youtube.com'
+Traceback (most recent call last):
+  File "b:\Programs\Python312\Lib\site-packages\HTMLrenderer\site.py", line 19, in is_valid
+    response_status = urllib.request.urlopen(URL).getcode()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "b:\Programs\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "b:\Programs\Python312\Lib\urllib\request.py", line 499, in open
+    req = Request(fullurl, data)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "b:\Programs\Python312\Lib\urllib\request.py", line 318, in __init__
+    self.full_url = url
+    ^^^^^^^^^^^^^
+  File "b:\Programs\Python312\Lib\urllib\request.py", line 344, in full_url
+    self._parse()
+  File "b:\Programs\Python312\Lib\urllib\request.py", line 373, in _parse
+    raise ValueError("unknown url type: %r" % self.full_url)
+ValueError: unknown url type: 'www.youtube.com'
+[2023-12-17 20:10:17,882: ERROR: site]: unknown url type: 'www.google.com'
+Traceback (most recent call last):
+  File "b:\Programs\Python312\Lib\site-packages\HTMLrenderer\site.py", line 19, in is_valid
+    response_status = urllib.request.urlopen(URL).getcode()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "b:\Programs\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "b:\Programs\Python312\Lib\urllib\request.py", line 499, in open
+    req = Request(fullurl, data)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "b:\Programs\Python312\Lib\urllib\request.py", line 318, in __init__
+    self.full_url = url
+    ^^^^^^^^^^^^^
+  File "b:\Programs\Python312\Lib\urllib\request.py", line 344, in full_url
+    self._parse()
+  File "b:\Programs\Python312\Lib\urllib\request.py", line 373, in _parse
+    raise ValueError("unknown url type: %r" % self.full_url)
+ValueError: unknown url type: 'www.google.com'
+[2023-12-17 20:10:29,802: ERROR: site]: unknown url type: 'www.google.com'
+Traceback (most recent call last):
+  File "b:\Programs\Python312\Lib\site-packages\HTMLrenderer\site.py", line 19, in is_valid
+    response_status = urllib.request.urlopen(URL).getcode()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "b:\Programs\Python312\Lib\urllib\request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "b:\Programs\Python312\Lib\urllib\request.py", line 499, in open
+    req = Request(fullurl, data)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "b:\Programs\Python312\Lib\urllib\request.py", line 318, in __init__
+    self.full_url = url
+    ^^^^^^^^^^^^^
+  File "b:\Programs\Python312\Lib\urllib\request.py", line 344, in full_url
+    self._parse()
+  File "b:\Programs\Python312\Lib\urllib\request.py", line 373, in _parse
+    raise ValueError("unknown url type: %r" % self.full_url)
+ValueError: unknown url type: 'www.google.com'

@@ -1,0 +1,261 @@
+element:: {
+    / assets/mainfont.ttf
+    text.font_name 'Segoe UI';
+    text.sysfont true;
+    text.antialas true;
+    text.font_size |30*MULT|;
+}
+
+.smallfont:: {
+    text.font_size |26*MULT|;
+}
+
+.bigfont:: {
+    text.font_size |34*MULT|;
+}
+
+.titlefont:: {
+    text.font_size |100*MULT|;
+}
+
+.subtitlefont:: {
+    text.font_size |60*MULT|;
+}
+
+.bigbigfont:: {
+    text.font_size |37*MULT|;
+}
+
+.errorlabel:: {
+    text.color red;
+}
+
+.pixelbg, pixeldisabled:: {
+    image.enabled true;
+    image.border_size 4;
+    image.border_scale 2;
+    image.border_radius 0;
+    image.padding 0;
+    bg.enabled false;
+    outline.enabled false;
+}
+
+.pixeldisabled {
+    image.image 'builtin.disabled_dark';
+}
+
+.pixelbg {
+    image.image 'builtin.dark';
+}
+
+.pixelbg:hover {
+    image.image 'builtin.hover_dark';
+}
+
+.pixelbg:press {
+    image.image 'builtin.click_dark';
+}
+
+.good,bad,neutral:: {
+    shape.enabled true;
+    shape.type circle;
+    shape.padding 5;
+    outline.enabled false;
+    bg.enabled false;
+    stack.fill_y true;
+}
+
+.good:: {
+    shape.color #6fc276;
+}
+
+.bad:: {
+    shape.color #eb2d3a;
+}
+
+.neutral:: {
+    shape.color #4285f4;
+}
+
+.agendagradegood, agendagradebad:: {
+    outline.enabled false;
+    bg.enabled true;
+    bg.border_radius 15;
+}
+
+.boxpadding:: {
+    stack.padding 5;
+}
+
+.agendagradegood:: {
+    bg.color #6fc276;
+}
+
+.agendagradebad:: {
+    bg.color #eb2d3a;
+}
+
+.whiteline:: {
+    bg.color white;
+    outline.color white;
+}
+
+.disabledoutlinecol:: {
+    outline.color #363946;
+    bg.color #363946;
+}
+
+.anchortop:: {
+    stack.anchor top;
+}
+
+.alignleft:: {
+    text.align left;
+    stack.anchor left;
+    text.font_align 0;
+    stack.align left;
+}
+
+.alignright:: {
+    text.align right;
+    stack.anchor right;
+    text.font_align 2;
+    stack.align right;
+}
+
+.aligntopleft:: {
+    text.align topleft;
+}
+
+.alignbottomleft:: {
+    text.align bottomleft;
+}
+
+.anchorcenter:: {
+    stack.anchor center;
+}
+
+.padding:: {
+    stack.padding 10;
+}
+
+.textpadding:: {
+    text.padding 7;
+    text.y_padding 7;
+}
+
+.noscrollbar :: {
+    bg.enabled false;
+    outline.enabled false;
+    image.enabled false;
+    shape.enabled false;
+    stack.floating_scrollbars true;
+}
+
+.floatingscrollbars:: {
+    stack.floating_scrollbars true;
+}
+
+.disabledtxt:: {
+    text.color (160, 160, 160);
+}
+
+.maskpadding:: {
+    stack.mask_padding 6;
+}
+
+.grow_y:: {
+    stack.grow_y true;
+    stack.shrink_y true;
+}
+
+.grow_x:: {
+    stack.grow_x true;
+    stack.shrink_x true;
+}
+
+.textgrowx:: {
+    text.do_wrap false;
+    text.grow_x true;
+}
+
+.calendarfont:: {
+    text.font_size |42*MULT|;
+}
+
+.calendar, calendartoday, calendarselected, calendartomorrow:: {
+    text.font_size |42*MULT|;
+    shape.enabled true;
+    shape.padding 3;
+    shape.type rect;
+    shape.rect_border_radius 15;
+    outline.enabled false;
+    bg.enabled false;
+}
+
+.calendar {
+    % shape.color #ffb347, $ANIM;
+}
+
+.calendar:hover {
+    % shape.color #ffc87a, $ANIM;
+}
+
+.calendar:press {
+    % shape.color #fa9200, $ANIM;
+}
+
+.calendartoday {
+    % shape.color #b347ff, $ANIM;
+}
+
+.calendartoday:hover {
+    % shape.color #c87aff, $ANIM;
+}
+
+.calendartoday:press {
+    % shape.color #9200fa, $ANIM;
+}
+
+.calendarselected {
+    % shape.color #ff6961, $ANIM;
+}
+
+.calendarselected:hover {
+    % shape.color #ff9994, $ANIM;
+}
+
+.calendarselected:press {
+    % shape.color #ff392e, $ANIM;
+}
+
+.calendartomorrow {
+    % shape.color #63d863, $ANIM;
+}
+
+.calendartomorrow:hover {
+    % shape.color #8be28b, $ANIM;
+}
+
+.calendartomorrow: press {
+    % shape.color #3ace3a, $ANIM;
+}
+
+.donecheckbox:press {
+    shape.type circle;
+    shape.padding 7;
+    shape.color #6fc276;
+}
+
+.donetitle:: {
+    text.color #6fc276;
+}
+
+.textgrow:: {
+    text.grow_y true;
+}
+
+.extrabtn:: {
+    text.font_name googleicons;
+    text.font_size 35;
+}
